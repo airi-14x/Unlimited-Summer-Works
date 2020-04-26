@@ -1,8 +1,8 @@
 # Unlimited-Summer-Works
 Sandbox for technologies studied during summer '20.
-START: April 24th 2020
-FINALE: August 31th 2020
+- START: April 24th 2020
+- FINALE: August 31th 2020
 
 | Review | Completion |
 | ------| --------------- |
-| W3School - Python: Intro | |
+| W3Schools - Python: Intro |  |
