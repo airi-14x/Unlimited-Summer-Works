@@ -5,4 +5,5 @@ FINALE: August 31th 2020
 
 | Review | Completion |
 | ------| --------------- |
-| W3School - Python: Intro | |
+| W3School - Python: Intro | May 4th 2020 |
+| W3School - Python NumPy | |
