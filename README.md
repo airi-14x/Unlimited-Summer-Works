@@ -5,4 +5,6 @@ Sandbox for technologies studied during summer '20.
 
 | Review | Completion |
 | ------| --------------- |
-| W3Schools - Python: Intro |  |
+| W3Schools - Python: Intro | May 4th 2020 |
+| W3Schools - Python: NumPy | |
+
