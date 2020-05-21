@@ -69,10 +69,49 @@ print("Last ID: ", my_cursor.lastrowid)
 # my_cursor.execute(sql)
 
 # ESCAPING CHARACTERS
+'''
 sql = "SELECT * FROM customers WHERE address = %s"
 adr = ("Yellow Garden 2",)
 my_cursor.execute(sql, adr)
+'''
 
+#sql = "SELECT * FROM customers ORDER BY name"
+#sql = "SELECT * FROM customers ORDER BY name DESC"
+#sql = "DELETE FROM customers WHERE address = 'Mountain 21'"
+'''
+results = my_cursor.fetchall()
+
+for result in results:
+    print(result)
+'''
+
+# Better DELETE
+'''
+sql = "DELETE FROM customers WHERE address = %s"
+adr = ("Yellow Garden 2", )
+my_cursor.execute(sql, adr)
+my_db.commit()
+
+print(my_cursor.rowcount, "record(s) deleted")
+'''
+
+# DROP
+'''
+sql = "DROP TABLE IF EXISTS customers"
+my_cursor.execute(sql)
+'''
+
+# UPDATE
+#sql = "UPDATE customers SET address = 'Canyon 123' WHERE address = 'Valley 345'"
+sql = "UPDATE customers SET address = %s WHERE address = %s"
+val = ("Valley 345", "Canyon 123")
+my_cursor.execute(sql, val)
+my_db.commit()
+print(my_cursor.rowcount, "record(s) affected")
+
+#sql = "SELECT * FROM customers LIMIT 5"
+sql = "SELECT * FROM customers LIMIT 5 OFFSET 2"
+my_cursor.execute(sql)
 results = my_cursor.fetchall()
 
 for result in results:
