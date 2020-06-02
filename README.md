@@ -7,7 +7,8 @@ Sandbox for technologies studied during summer '20.
 | ------| --------------- |
 | W3Schools - Python: Intro | May 4th 2020 |
 | W3Schools - Python: NumPy | May 7th 2020 |
-| TryRuby - Ruby Review | May 18th 2020 |
+| TryRuby - Ruby | May 18th 2020 |
 | W3Schools - Python: MySQL | May 21st 2020|
 | W3Schools - Python: MongoDB | May 25th 2020|
+| Official Ruby FAQ | June 2nd 2020|
 | W3Schools - Python: Machine Learning | |
